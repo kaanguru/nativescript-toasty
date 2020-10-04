@@ -1,3 +1,4 @@
+@NativeClass()
 declare class ToastManager extends NSObject {
   static alloc(): ToastManager; // inherited from NSObject
 
@@ -35,7 +36,7 @@ declare const enum ToastPosition {
 
   BottomRight = 8
 }
-
+@NativeClass()
 declare class ToastStyle extends NSObject {
   static alloc(): ToastStyle; // inherited from NSObject
 

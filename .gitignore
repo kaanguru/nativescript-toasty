@@ -24,3 +24,4 @@ demo/report/stats.json
 !demo/app/tests/*.js
 !demo/references.d.ts
 !demo/webpack.config.js
+yarn.lock
